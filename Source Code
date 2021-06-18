@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a;
+printf("Enter two Numbers");
+scanf("%d",&a);
+if(a%2==0)
+{ 
+printf("Number Is even");
+}
+else
+{
+printf("Number is odd");
+}
+getch();
+}
